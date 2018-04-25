@@ -3,8 +3,9 @@
 # User for execution of puppetrun commands
 #
 # sudo permission needs to be added to ensure
-# smart-proxy can execute 'sudo' command
-#
+# smart-proxy can execute 'sudo' command.
+# Make these changes in /etc/sudoers.d/foreman-proxy
+# 
 # Defaults:foreman-proxy !requiretty
 # foreman-proxy ALL=(peadmin) NOPASSWD: /opt/puppet/bin/puppet *',
 #
